@@ -1,0 +1,23 @@
+.mainBody{
+	border: 2px solid grey;
+	padding: 5px;
+	width: 260px;
+	margin: 50px;
+	text-align: center;
+	float: left;
+}
+input{
+	margin:10%;
+}
+.timer{
+	padding: 2%;
+	border: 5px solid #DDD;
+	height: 40px;
+	font-weight: bold;
+}
+.btn{
+	margin: 2%;
+}
+h4{
+	margin-left: 50px;
+}
