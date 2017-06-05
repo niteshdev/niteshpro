@@ -1,0 +1,55 @@
+<html ng-app="checkBox">
+<head>
+	<title>Assignment_3</title>	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<style>
+		body{
+			padding:  5%;
+			margin-left:  5%;
+			color: green;
+		}	
+		.checked{
+			color: red;
+		}		
+		.unchecked{
+			color: blue;
+		}
+		
+	</style>
+</head>
+<body ng-controller="ctrl">
+	
+	<div ng-style="mainDiv">
+		<h3>Checkbox using ng-style</h3>
+		<p ng-style="checkBox1 && {'color':'red'} || {'color': 'blue'}">
+			<input type="checkbox" ng-model="checkBox1">Check Checkbox to change my color
+		</p>
+		
+		<br>
+		<br>
+		<br>
+		
+		<h3>Checkbox using ng-class</h3>
+		<p ng-class="{'checked':checkBox2, 'unchecked':!checkBox2}">
+			<input type="checkbox" ng-model="checkBox2">Check Checkbox to change my color
+		</p>
+
+	</div>
+<script>
+	var app = angular.module("checkBox", []);
+    app.controller("ctrl", function($scope) {
+    $scope.checkBox = false;  
+    $scope.mainDiv = {
+        
+        "background-color":"skyblue",
+        "padding": "5%",
+        "margin-left":"0px",
+		"float": "left",
+		"font-weight":"bold",
+		"border":"2px solid grey"
+        }
+   
+    });
+</script>
+</body>
+</html>
