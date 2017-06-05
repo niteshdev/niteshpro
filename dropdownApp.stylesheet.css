@@ -1,0 +1,38 @@
+.container{
+	margin: 5%;
+	padding: 5%;
+	background-color:#ccc;
+}
+.dropdown ul {
+  background: #ffffff;
+  padding: 4px 0;
+  border: 1px solid #bec0c1;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 33px;
+  display: none;
+  list-style: none;
+}
+.dropdown ul li {
+  list-style: none;
+}
+.dropdown ul li:hover {
+  background: #009eca;
+}
+.dropdown ul li a {
+  height: 30px;
+  padding: 0 40px 0 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3d4447;
+  white-space: nowrap;
+}
+.dropdown ul li a:hover {
+  color: #ffffff;
+}
+.dropdown.dropdown-active ul {
+  display: block;
+}

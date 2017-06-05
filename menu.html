@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="dropdownApp">
+<head>
+<title>custom directive</title>
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css"/>
+    <link rel="stylesheet" href="dropdownApp.stylesheet.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"></script>
+    <script src="dropdownApp.controller.js"></script>
+</head>
+<body ng-controller="dropdownAppController">  
+
+    <div class="container col-md-5">
+    <h5>Dropdown using Custom directive </h5>
+        <div class="dropdown">
+        <button class="button btn btn-success">Dropdown Menu <span class="caret"></span></button>
+            <ul>
+                <li><a>Menu 1</a></li>
+                <li><a>Menu 2</a></li>
+                <li><a>Menu 3</a></li>
+                <li><a>Menu 4</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</body>
+</html>
