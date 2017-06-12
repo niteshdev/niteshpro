@@ -1,0 +1,161 @@
+#head {
+    cursor: pointer;
+}
+#head img {
+    max-width: 180px;
+}
+.pad {
+    padding: 19px 0px 14px;
+    width: 84%;
+    margin: 0 auto;
+}
+#header_nav {
+    width: 100%;
+    height: 80px;
+    background: none 0px 0px repeat scroll rgba(8,27,27,0.8);
+position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1080;
+}
+.header {
+    background: none repeat scroll 0 0 #080b1b;
+    width: 100%;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.navigation {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+    float: right;
+}
+.navigation li a:hover {
+    text-decoration: none;
+    color: #ead73b;
+}
+.navigation li {
+    font-size: 16px;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 13px;
+    float: left;
+    text-decoration: none;
+}
+.navigation li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navigation-collapse {
+    list-style: none;
+    color: #fff;
+    display: none;
+    width: 100%;
+    padding: 15px 0px;
+}
+.navigation-collapse li {
+    text-align: right;
+    padding-right: 9%;
+}
+.navigation-collapse li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+.hide {
+    height: 60px;
+    display: none;
+}
+
+img {
+    
+    max-width: 100%;
+
+}
+.space {
+    padding: 34px 0px;
+}
+.heading {
+    text-align: center;
+    padding-bottom: 3px;
+    font-family: "AvenirHeavy";
+    font-size: 24px;
+    position: relative;
+}
+.slide-sep {
+    display: block;
+    width: 58px;
+    height: 4px;
+    background: #ffffff;
+    margin: 0px auto;
+    content: " ";
+}
+.value-heading {
+    font-size: 18px;
+    color: #444444;
+    font-family: AvenirHeavy;
+    position: relative;
+}
+.value-description {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;
+    color: #a2a3a3;
+
+}
+#about {
+    background-color: #F26F62;
+    color: #fff;
+}
+.about-description {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 2.1rem;
+}
+.size-14 {
+    font-size: 14px;
+}
+.size-32 {
+    font-size: 32px;
+    vertical-align: middle;
+}
+.button-primary {
+    color: #FFF;
+    background-color: #B32021;
+    border-color: #B32021;
+}
+#product {
+    background: url(images/b.png) no-repeat center center / cover rgba(0, 0, 0, 0);
+        padding: 27px 0px 49px 0px;
+    color: #fff;
+}
+.headerDivider {
+    border-left: 1px solid #2c1717;
+    border-right: 1px solid #16222c;
+    height: 30px;
+    font-size: 21px;
+    margin: 0px 15px;
+}
+#career {
+    background-color: #E8D33A;
+    color: #444444;
+    font-size: 16px;
+}
+.career-description {
+    line-height: 2.1rem;
+}
+.career-head {
+    font-family: "AvenirHeavy";
+    font-size: 18px;
+}
+#career a {
+    color: #eb5554;
+}
+#footer {
+    background-color: #32333F;
+    color: #fff;
+}
